@@ -787,15 +787,14 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'heroku_15f7879c56b5929',
-  'username' => 'b967f457ca6436',
-  'password' => '3af29494',
+  'database' => 'd8nu7pok50a92g',
+  'username' => 'ytcfzzqbkjbsvu',
+  'password' => 'e7302687699502a56485cf66d928632213fb1068d341256732a4223f51113cc8',
   'prefix' => '',
-  'host' => 'us-cdbr-iron-east-02.cleardb.net',
-  'port' => '3306',
+  'host' => 'ec2-54-243-197-120.compute-1.amazonaws.com',
+  'port' => '5432',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
 $config_directories['sync'] = 'sites/default/files/config_7c9XaO56QNlWo125aCT7UOWNS3Nb7CLQvuJ_AIn91yJDN4VkvjYlSvjeI5fIiPoP6UNWdpGqMQ/sync';
 
-// heroku config variable: mysql: //b967f457ca6436:3af29494@us-cdbr-iron-east-02.cleardb.net/heroku_15f7879c56b5929?reconnect=true
