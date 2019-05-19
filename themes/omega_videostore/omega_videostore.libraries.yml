@@ -1,0 +1,21 @@
+omega_videostore:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the omega_videostore theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the omega_videostore.libraries.yml file.'
+    scss: 
+      style/css/omega_videostore.css: 'style/scss/omega_videostore.scss'
+  version: VERSION
+  js:
+    js/omega_videostore.js: {}
+  css:
+    theme:
+      style/css/omega_videostore.css: {}
+    layout: 
+      #style/css/layout/some-layout-file.css: {}
+    component:
+      #style/css/components/some-component.css: {}
+  dependencies:
+    - core/jquery
+    
