@@ -787,12 +787,12 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'd8nu7pok50a92g',
-  'username' => 'ytcfzzqbkjbsvu',
-  'password' => 'e7302687699502a56485cf66d928632213fb1068d341256732a4223f51113cc8',
+  'database' => 'CldzRdbqQT',
+  'username' => 'CldzRdbqQT',
+  'password' => 'aLnBzJY7D3',
   'prefix' => '',
-  'host' => 'ec2-54-243-197-120.compute-1.amazonaws.com',
-  'port' => '5432',
+  'host' => 'remotemysql.com',
+  'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
