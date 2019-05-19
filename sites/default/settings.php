@@ -787,11 +787,11 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'CldzRdbqQT',
-  'username' => 'CldzRdbqQT',
-  'password' => 'aLnBzJY7D3',
+  'database' => 'vforvideo',
+  'username' => 'pjsmooth',
+  'password' => 'gmailtech',
   'prefix' => '',
-  'host' => 'remotemysql.com',
+  'host' => 'db4free.net',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
